@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">My Application1</string>
+    <string name="hi">ПРИВЕТ</string>
+    <string name="nije">Наслаждайся отборочными. \n Будь внимателен. \nДелай хорошо.</string>
+    <string name="yesorno">Ещё нет аккаунта?</string>
+    <string name="acc">Bойти в аккаунт</string>
+    <string name="login">Зарегистрируйтесь</string>
+    <string name="signin">Sign in</string>
+    <string name="b1">Sign in</string>
+    <string name="b2">Профиль</string>
+    <string name="reg">Register</string>
+    <string name="edit1">Email</string>
+    <string name="edit2">Пароль</string>
+</resources>
