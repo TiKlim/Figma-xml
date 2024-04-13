@@ -30,11 +30,11 @@
         android:layout_width="90dp"
         android:layout_height="90dp"
         android:src="@drawable/pumpurumpumpum"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.096"
         app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="54dp" />
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView"

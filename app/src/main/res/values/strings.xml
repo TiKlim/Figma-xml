@@ -12,4 +12,12 @@
     <string name="edit1">Email</string>
     <string name="edit2">Пароль</string>
     <string name="registration">Тут будет \nрегистрация</string>
+    <string name="hello">С возвращением, Эмиль!</string>
+    <string name="howdoyoydo">Каким ты себя ощущаешь сегодня?</string>
+    <string name="zagolovok1">Заголовок блока</string>
+    <string name="podblochnik1">Кратенькое описание \nблока с двумя строчками</string>
+    <string name="butblock1">подробнее</string>
+    <string name="zagolovok2">Заголовок блока</string>
+    <string name="podblochnik2">Кратенькое описание \nблока с двумя строчками</string>
+    <string name="butblock2">подробнее</string>
 </resources>
