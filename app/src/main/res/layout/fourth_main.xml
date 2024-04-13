@@ -224,19 +224,15 @@
             android:backgroundTint="#7C9A92"
             android:bottomLeftRadius="1dp"
             android:bottomRightRadius="1dp"
-            android:drawableTint="#6DAE81"
-            android:foregroundTint="#6DAE81"
             android:radius="1dp"
             android:text="@string/butblock1"
-            android:textColorLink="#6DAE81"
             android:textSize="17dp"
             android:topLeftRadius="1dp"
             android:topRightRadius="1dp"
             app:cornerRadius="8dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:rippleColor="#6DAE81" />
+            app:layout_constraintStart_toStartOf="parent" />
     </RelativeLayout>
 
 
