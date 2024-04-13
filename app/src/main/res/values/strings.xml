@@ -11,4 +11,5 @@
     <string name="reg">Register</string>
     <string name="edit1">Email</string>
     <string name="edit2">Пароль</string>
+    <string name="registration">Тут будет \nрегистрация</string>
 </resources>

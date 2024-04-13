@@ -42,22 +42,66 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
         android:layout_marginEnd="200dp"
-        android:layout_marginBottom="628dp"
+        android:layout_marginBottom="536dp"
         android:fontFamily="@font/alegreyaregular"
         android:text="@string/signin"
         android:textAlignment="center"
         android:textColor="@color/white"
-        android:textSize="40sp"
-        android:textStyle="bold"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.336"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="425dp"
+        android:backgroundTint="#BEC2C2"
+        android:ems="10"
+        android:inputType="text"
+        android:text="@string/edit1"
+        android:textColor="#BEC2C2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="43dp"
+        android:layout_marginBottom="66dp"
+        android:backgroundTint="#BEC2C2"
+        android:ems="10"
+        android:inputType="text"
+        android:text="@string/edit2"
+        android:textColor="#BEC2C2"
+        app:layout_constraintBottom_toTopOf="@+id/button1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText" />
+
+    <ImageView
+        android:layout_width="409dp"
+        android:layout_height="407dp"
+        android:layout_marginTop="480dp"
+        android:src="@drawable/listya"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.484"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="405dp"
-        android:layout_marginEnd="275dp"
+        android:layout_marginTop="285dp"
+        android:layout_marginEnd="280dp"
         android:fontFamily="@font/alegreyasansmedium"
         android:text="@string/reg"
         android:textAlignment="center"
@@ -70,10 +114,10 @@
     <Button
         android:id="@+id/button1"
         android:layout_width="298dp"
-        android:layout_height="55dp"
+        android:layout_height="60dp"
         android:layout_marginStart="56dp"
         android:layout_marginEnd="57dp"
-        android:layout_marginBottom="240dp"
+        android:layout_marginBottom="250dp"
         android:backgroundTint="#7C9A92"
         android:bottomLeftRadius="1dp"
         android:bottomRightRadius="1dp"
@@ -94,10 +138,11 @@
     <Button
         android:id="@+id/button2"
         android:layout_width="298dp"
-        android:layout_height="55dp"
+        android:layout_height="60dp"
         android:layout_marginStart="56dp"
         android:layout_marginEnd="57dp"
-        android:layout_marginBottom="140dp"
+        android:layout_marginBottom="137dp"
+        android:alpha="0.898"
         android:backgroundTint="#7C9A92"
         android:bottomLeftRadius="1dp"
         android:bottomRightRadius="1dp"
@@ -114,46 +159,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:rippleColor="#6DAE81" />
-
-    <EditText
-        android:id="@+id/editTextText"
-        android:layout_width="300dp"
-        android:layout_height="70dp"
-        android:layout_marginBottom="415dp"
-        android:ems="10"
-        android:inputType="text"
-        android:text="@string/edit1"
-        android:textColor="#BEC2C2"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <EditText
-        android:id="@+id/editTextText2"
-        android:layout_width="300dp"
-        android:layout_height="70dp"
-        android:layout_marginTop="43dp"
-        android:layout_marginBottom="56dp"
-        android:ems="10"
-        android:inputType="text"
-        android:text="@string/edit2"
-        android:textColor="#BEC2C2"
-        app:layout_constraintBottom_toTopOf="@+id/button1"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextText" />
-
-    <ImageView
-        android:layout_width="430dp"
-        android:layout_height="430dp"
-        android:layout_marginTop="600dp"
-        android:src="@drawable/listya"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.526"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
