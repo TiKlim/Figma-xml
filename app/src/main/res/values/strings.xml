@@ -20,4 +20,8 @@
     <string name="zagolovok2">Заголовок блока</string>
     <string name="podblochnik2">Кратенькое описание \nблока с двумя строчками</string>
     <string name="butblock2">подробнее</string>
+    <string name="menu">Тут будет меню</string>
+    <string name="delete">удалить</string>
+    <string name="close">закрыть</string>
+    <string name="listening">Тут будет\nпрослушивание</string>
 </resources>
