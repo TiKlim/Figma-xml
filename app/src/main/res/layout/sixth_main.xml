@@ -26,7 +26,7 @@
         app:layout_constraintVertical_bias="1.0" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/del"
         android:layout_width="158dp"
         android:layout_height="60dp"
         android:layout_marginBottom="36dp"
@@ -50,7 +50,7 @@
         app:rippleColor="#6DAE81" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/close"
         android:layout_width="158dp"
         android:layout_height="60dp"
         android:layout_marginBottom="36dp"

@@ -7,29 +7,225 @@
     android:layout_height="match_parent"
     tools:context=".SecondMainActivity"
     tools:layout_editor_absoluteX="someValue"
-    tools:layout_editor_absoluteY="someValue">
+    tools:layout_editor_absoluteY="someValue"
+    android:background="#253334">
+
+    <FrameLayout
+        android:id="@+id/flayoutTop"
+        android:layout_width="350dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="42dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/sidemenu"
+            android:layout_width="22dp"
+            android:layout_height="18dp"
+            android:layout_marginTop="15dp"
+            app:srcCompat="@drawable/hamburger" />
+
+        <TextView
+            android:id="@+id/exit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="325dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/alegreyasansmedium"
+            android:text="exit"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="50dp"
+            android:layout_height="49dp"
+            android:layout_marginStart="150dp"
+            app:srcCompat="@drawable/home_1" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/flayoutBottom"
+        android:layout_width="260dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginBottom="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:id="@+id/home"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            app:srcCompat="@drawable/home_0" />
+
+        <ImageView
+            android:id="@+id/profile"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="235dp"
+            app:srcCompat="@drawable/profile_1" />
+
+        <ImageView
+            android:id="@+id/sounds"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="117.5dp"
+            app:srcCompat="@drawable/sounds_0" />
+    </FrameLayout>
 
     <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="1522dp"
-        android:layout_height="1060dp"
-        android:layout_marginStart="-340dp"
-        android:layout_marginTop="-7dp"
-        android:layout_marginEnd="-1049dp"
-        android:layout_marginBottom="-25dp"
-        android:background="#253334"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        android:id="@+id/imageProfile"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="144dp"
+        android:layout_marginTop="116dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
+        app:srcCompat="@drawable/profile" />
 
-    <shape
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        android:shape="rectangle"
-        tools:ignore="MissingConstraints">
-        <corners android:radius="10dp" />
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="163dp"
+        android:layout_marginTop="239dp"
+        android:fontFamily="@font/alegreyasansmedium"
+        android:text="Эмиль"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-    </shape>
+    <ImageView
+        android:id="@+id/dawn"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="46dp"
+        android:layout_marginBottom="330dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/dawn" />
+
+    <TextView
+        android:id="@+id/time1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
+        android:fontFamily="@font/alegreyasansmedium"
+        android:text="11:00"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/dawn"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toStartOf="@+id/dawn"
+        app:layout_constraintTop_toTopOf="@+id/dawn"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageMoon"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="328dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/moon" />
+
+    <TextView
+        android:id="@+id/time2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/alegreyasansmedium"
+        android:text="15:55"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageMoon"
+        app:layout_constraintEnd_toEndOf="@+id/imageMoon"
+        app:layout_constraintHorizontal_bias="0.088"
+        app:layout_constraintStart_toStartOf="@+id/imageMoon"
+        app:layout_constraintTop_toTopOf="@+id/imageMoon"
+        app:layout_constraintVertical_bias="0.945"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageSea"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginBottom="208dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/sea"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textview_time3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/alegreyasansmedium"
+        android:text="19:11"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageSea"
+        app:layout_constraintEnd_toEndOf="@+id/imageSea"
+        app:layout_constraintHorizontal_bias="0.114"
+        app:layout_constraintStart_toStartOf="@+id/imageSea"
+        app:layout_constraintTop_toTopOf="@+id/imageSea"
+        app:layout_constraintVertical_bias="0.972"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageForest"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginBottom="210dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/picture1" />
+
+    <TextView
+        android:id="@+id/time4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/alegreyasansmedium"
+        android:text="11:11"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageForest"
+        app:layout_constraintEnd_toEndOf="@+id/imageForest"
+        app:layout_constraintHorizontal_bias="0.103"
+        app:layout_constraintStart_toStartOf="@+id/imageForest"
+        app:layout_constraintTop_toTopOf="@+id/imageForest"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="MissingConstraints" />
+
+    <FrameLayout
+        android:id="@+id/add_image"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="46dp"
+        android:layout_marginBottom="90dp"
+        android:background="@drawable/corners"
+        android:backgroundTint="#6AAE72"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/addImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="64dp"
+            android:layout_marginTop="28dp"
+            android:fontFamily="@font/alegreyasansmedium"
+            android:text="+"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp" />
+    </FrameLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

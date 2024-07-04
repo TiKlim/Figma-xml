@@ -139,7 +139,7 @@
         app:rippleColor="#6DAE81" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/buttonProfile"
         android:layout_width="298dp"
         android:layout_height="60dp"
         android:layout_marginStart="56dp"

@@ -38,6 +38,7 @@
         tools:ignore="MissingConstraints" />
 
     <ImageView
+        android:id="@+id/userprofil"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_marginStart="7dp"
@@ -51,6 +52,7 @@
         tools:ignore="MissingConstraints" />
 
     <ImageView
+        android:id="@+id/sidemenu"
         android:layout_width="30dp"
         android:layout_height="30dp"
         android:layout_marginBottom="48dp"
@@ -330,15 +332,36 @@
 
     </RelativeLayout>
 
-    <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="493dp"
-        android:layout_height="172dp"
-        android:layout_marginEnd="75dp"
-        android:src="@drawable/panel1"
+    <FrameLayout
+        android:id="@+id/flayout_bottom"
+        android:layout_width="260dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginBottom="40dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="MissingConstraints" />
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:id="@+id/home"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/home_1" />
+
+        <ImageView
+            android:id="@+id/sounds"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="117.5dp"
+            android:src="@drawable/sounds_0" />
+
+        <ImageView
+            android:id="@+id/profile"
+            android:onClick="nextprofile"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="235dp"
+            android:src="@drawable/profile_0" />
+
+    </FrameLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
